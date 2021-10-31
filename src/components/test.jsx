@@ -6,7 +6,6 @@ import '../style/test.sass'
 export const Message = ({message, onMassageClick}) => {
     let [counter, setCount] = useState(0)
     const upCounter = () => {
-        console.log('1');
         setCount(counter + 1)
     }
 
@@ -16,7 +15,7 @@ export const Message = ({message, onMassageClick}) => {
             </h1>
 
             <h3 className="test__countnum">{counter}</h3>
-            <button className="test__countbtn" onClick={upCounter}>Count + </button>
+            <button className="test__countbtn" onClick={upCounter}><span className="test__countbtn_text">Count + </span></button>
         </div>
 
 }

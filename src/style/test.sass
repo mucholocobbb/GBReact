@@ -3,7 +3,6 @@
     width: 80%
     margin: 0 auto
     border: 1px solid #000
-    border-radius: 10px
     display: flex
     flex-direction: column
     justify-content: center
@@ -11,22 +10,24 @@
     padding: 24px
     box-sizing: border-box
     &__text
-        color: red
+        color: #ff0000
     &__countnum
         font-size: 26px
         margin: 24px
         color: blue    
-    &__countbtn    
+    &__countbtn
         width: 120px
         height: 40px
-        border-radius: 5px
-        border: 0
-        background-color: #5cdd5c
-        box-shadow: 0 0 15px -5px black
+        border: 3px solid #000
+        background-color: #FFFFFF
+        box-shadow: 4px 3px 1px  black
         outline: none
         transition: all 0.2s
         &:hover
             background-color: #5cdd5c8c
         &:active
             box-shadow: 0 0 10px -5px black
+        &_text
+            font-size: 14px
+            font-family: 'Press Start 2P', cursive
 

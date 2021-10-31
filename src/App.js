@@ -6,7 +6,6 @@ function App() {
   const [text, setText] = useState('i am prop')
 
   const handleClick = () => {
-    alert('click')
     setText('New' + Math.random().toFixed(2))
   }
 
